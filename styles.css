@@ -1,0 +1,83 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.ig-post {
+    background-color: #fff;
+    width: 350px;
+    border: 2px solid #000; 
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    background-position: 10px center;
+    background-size: 30px;
+    justify-content: flex-start;
+}
+
+.post-header:before {
+   
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.post-header:after {
+    
+    font-size: 12px;
+    color: #888;
+    margin-left: 5px;
+}
+
+.post-options {
+    margin-left: auto;
+}
+.post-image img {
+    width: 100%;
+    height: auto;
+}
+
+.post-icos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #000;
+}
+
+.left-icons i {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.right-icon i {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.post-text {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.post-text:before {
+    content: "Liked by tumama, html5, Web and 100,000 others. ";
+    font-weight: bold;
+    display: block;
+}
+
+.post-text:after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.";
+    display: block;
+    margin-top: 5px;
+    color: black;
+}
